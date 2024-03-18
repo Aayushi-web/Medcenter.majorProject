@@ -1,0 +1,119 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,200;0,300;0,400;0,500;0,600;1,300;1,500&family=Roboto:ital,wght@0,100;0,300;0,400;1,100;1,300&family=Sen:wght@413&display=swap');
+
+
+*{
+    padding: 0;
+    margin: 0;
+}
+
+
+.container1 {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px;
+    background: linear-gradient(to right, white, #f7e1e6);
+    /* position: fixed; */
+  }
+  
+  .logo img {
+    max-width: 100px; /* Adjust as needed */
+    margin-left: 10rem;
+  }
+  .project-name {
+    margin-left: 10px; /* Adjust as needed */
+    font-size: 1.2rem; /* Adjust as needed */
+    font-family: "Poppins";
+  }
+  nav ul {
+    list-style: none;
+    padding: 0;
+    margin-right: 6rem;
+    font-family: "Poppins";
+    font-size: larger;
+    font-weight: 500;
+  }
+  
+  nav ul li {
+    display: inline;
+    margin-right:8rem;
+  }
+  
+  nav ul li:last-child {
+    margin-right: 0;
+  }
+  
+  nav ul li a {
+    text-decoration: none;
+    color: gray;
+   
+    transition: color 0.3s ease;
+  }
+  nav ul li a:hover{
+    color: black;
+  }
+.container {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    grid-template-rows: repeat(2, auto);
+    gap: 53px;
+    padding: 22px;
+    margin: 6rem;
+}
+
+.card {
+    padding: 64px;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    transition: transform 0.3s ease;
+    background-size: cover;
+    height: 22rem;
+}
+
+.card:nth-child(1) {
+    background-image: url('https://images.immediate.co.uk/production/volatile/sites/28/2019/02/duedate-be1a911.jpg?quality=90&resize=980,654');
+}
+
+.card:nth-child(2) {
+    background-image: url('https://cdn.cdnparenting.com/articles/2018/06/604597520-h.jpg');
+}
+
+.card:nth-child(3) {
+    background-image: url('https://www.huggies.co.in/-/media/Project/HuggiesIN/Images/OvulationCalculator/bodyimage.jpg');
+}
+
+.card:nth-child(4) {
+    background-image: url('https://nypost.com/wp-content/uploads/sites/2/2022/01/baby.jpg?quality=75&strip=all&w=744');
+}
+
+.card:hover {
+    transform: translateY(-5px);
+}
+
+h2 {
+   
+    margin: -41px;
+font-weight: 800;
+    font-family: "Poppins";
+    color: rgb(49, 46, 46);
+    font-size: 35px;
+}
+
+button {
+    padding: 16px 37px;
+    background: #FFAFBD;  /* fallback for old browsers */
+background: -webkit-linear-gradient(to right, #ffc3a0, #FFAFBD);  /* Chrome 10-25, Safari 5.1-6 */
+background: linear-gradient(to right, #ffc3a0, #FFAFBD); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+
+    color: white;
+    border: none;
+    
+    cursor: pointer;
+    font-family: "Poppins";
+    margin-top: 260px;
+    margin-left: -4rem;
+}
+
+button:hover {
+    background-color: #0056b3;
+}
