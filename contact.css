@@ -45,7 +45,7 @@ textarea {
   nav ul {
     list-style: none;
     padding: 0;
-    margin-right: 6rem;
+    margin-right: 27rem;
     font-family: "Poppins";
     font-size: larger;
     font-weight: 500;
@@ -83,13 +83,13 @@ textarea {
 }
 
 .contact-form {
-    background: linear-gradient(to bottom, #9d2df1, #e162f5);
+    background: linear-gradient(to bottom, #9d2df1, #f7c5ff);
   position: relative;
 }
 
 .circle {
   border-radius: 50%;
-  background: linear-gradient(135deg, transparent 20%, #ff2cedc2);
+  background: linear-gradient(135deg, transparent 20%, #ca5bc1c2);
   position: absolute;
 }
 
@@ -316,7 +316,7 @@ textarea.input {
     width: 500px;
     height: 500px;
     border-radius: 50%;
-    background: linear-gradient(to bottom, #e34ffb, #5448ca);
+    background: linear-gradient(to bottom, #f7c5ff, #9d2df1);
     bottom: 50%;
     right: 50%;
     transform: translate(-40%, 38%);
