@@ -8,6 +8,13 @@
     scroll-padding-top: 2rem;
     box-sizing: border-box;
 }
+header{
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    z-index: 200;
+}
 body{
     background: #ddd6f3;  /* fallback for old browsers */
     background: -webkit-linear-gradient(to right, #faaca8, #ddd6f3);  /* Chrome 10-25, Safari 5.1-6 */
@@ -130,6 +137,8 @@ a{
     display: flex !important;
     justify-content: center;
     align-items: center;
+    top: 70px;
+
 }
 
 .about .contentBx{
