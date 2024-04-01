@@ -147,6 +147,7 @@ background: linear-gradient(to right, #ffc3a0, #FFAFBD); /* W3C, IE 10+/ Edge, F
     border: 1px solid rgb(156, 78, 156); /* Add a border */
     background-color: #6c82af;
     color: white;
+    margin-top: 79px;
   }
   
   .covid-info p {
@@ -408,6 +409,10 @@ background: linear-gradient(to right, #ffc3a0, #FFAFBD); /* W3C, IE 10+/ Edge, F
   }
 }
 .btn a{
+  text-decoration: none;
+  color: #f0f0f0;
+}
+.button a{
   text-decoration: none;
   color: #f0f0f0;
 }
