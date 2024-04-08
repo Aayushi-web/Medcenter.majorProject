@@ -115,7 +115,7 @@ body {
     margin-top: 2rem;
   }
   
-  p {
+  .para{
     font-size: 16px;
     margin-bottom: 30px;
     font-family: "Poppins";
@@ -135,6 +135,7 @@ background: linear-gradient(to right, #ffc3a0, #FFAFBD); /* W3C, IE 10+/ Edge, F
     font-family: "Poppins";
     font-size: larger;
     margin-right: 5rem;
+    margin-top: 2rem;
   }
   .button:hover{
     background-color: rgb(201, 150, 158);
