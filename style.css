@@ -12,9 +12,9 @@ body {
   }
   header{
     position: fixed;
-    top: 0;
-    left: 0;
-    width: 100%;
+    top: -96px;
+    left: -94px;
+    width: 112%;
     z-index: 200;
   }
   .container {
@@ -139,37 +139,39 @@ background: linear-gradient(to right, #ffc3a0, #FFAFBD); /* W3C, IE 10+/ Edge, F
   .button:hover{
     background-color: rgb(201, 150, 158);
   }
-  .covid-info {
-    display: flex; /* Make the div container use flexbox */
-    align-items: center; /* Align content vertically */
-    justify-content: space-between; /* Distribute content with space between */
-    padding: 10px 20px; /* Add padding for spacing */
-    border: 1px solid rgb(156, 78, 156); /* Add a border */
+  /* .covid-info {
+    display: flex; 
+    align-items: center; 
+    justify-content: space-between; 
+    padding: 10px 20px; 
+    border: 1px solid rgb(156, 78, 156);
     background-color: #6c82af;
     color: white;
     margin-top: 79px;
-  }
+  } */
+
   
-  .covid-info p {
+  /* .covid-info p {
     margin-left: 16rem;
-    margin-top: 2rem; /* Remove default margin for better alignment */
+    margin-top: 2rem; 
     color: white;
     font-size: 20px;
     font-weight: 400;
     
-  }
-.covid-info button{
+  } */
+/* .covid-info button{
   margin-right: 12rem;
-  background: #FFAFBD;  /* fallback for old browsers */
-background: -webkit-linear-gradient(to right, #ffc3a0, #FFAFBD);  /* Chrome 10-25, Safari 5.1-6 */
-background: linear-gradient(to right, #ffc3a0, #FFAFBD); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+  background: #FFAFBD;  
+background: -webkit-linear-gradient(to right, #ffc3a0, #FFAFBD);  
+background: linear-gradient(to right, #ffc3a0, #FFAFBD); 
 
-  
-}
-.covid-info a{
+
+   */
+/* } */
+/* .covid-info a{
   text-decoration: none;
   color: white;
-}
+} */
 /* //////////////////////////////////////////////// */
 
 
@@ -188,7 +190,7 @@ background: linear-gradient(to right, #ffc3a0, #FFAFBD); /* W3C, IE 10+/ Edge, F
 
 .centered-heading {
   grid-column: 1 / -1; /* Span all columns */
-  margin: 40px;
+  margin: 70px;
   font-size: 35px;
  
   
